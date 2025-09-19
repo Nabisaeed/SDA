@@ -79,7 +79,7 @@ class SmartPhone {
     IPhone getPhone() { return myPhone; }
 }
 
-public class Separation {
+public class Separation_of_concerns {
     public static void main(String[] args) {
         ICamera cam = new FirstGenCamera();
         IPhone ph = new TraditionalPhone();
